@@ -1,90 +1,144 @@
-#Landing-Page{
+#landing-page{
     width: 100vw;
     height: 100vh;
-    max-width: 1100px;
+    
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
 
 
     display: flex;
-    flex-direction: column;
-
     justify-content: center;
     align-items: center;
 }
 
-#Landing-Page .content-wrapper{
+#landing-page .content-wrapper{
     width: 100vw;
-    height: 100vh; 
+    height: 100vh;
     max-width: 1100px;
 
    
 
     display: flex;
     flex-direction: row;
-
     justify-content: center;
     align-items: center;
 }
 
-#Landing-Page .content-wrapper #LeftColumn{
-    width:32%;
-    height: 650px;
-
-    margin-left: 0;
+#landing-page .content-wrapper #leftColumn{
+    width:363px;
+    height: 600px;
    
     display: flex;
     flex-direction: column;
 
     justify-content:space-between;
+    align-items:center;
     
 
   
 }
 
-#Landing-Page .content-wrapper #LeftColumn img{
-    left: 0;
-    align-items: right;
+#landing-page .content-wrapper #leftColumn img{
+    position: absolute;
+    left: 20px;
+    top: 10px;
 }
-#Landing-Page .content-wrapper #LeftColumn h1{
-    
+#landing-page .content-wrapper #leftColumn h1{
+    position: absolute;
+    left: 20px;
+    right: 61.53%;
+    top: 25%;
+    bottom: 27.8%;
+
+    max-width: 350px;
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 70px;
+
+    color: #FFFFFF;
 
 }
 
-#Landing-Page .content-wrapper #LeftColumn h3{
-    
-    bottom: 80px; 
+#landing-page .content-wrapper #leftColumn h3{
+    position: absolute;
+    left: 20px;
+    bottom: 70px; 
     display: flex;
     align-items: center;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
    
 }
 
 
 
 
-#Landing-Page .content-wrapper #Image-Kids{
-    height: 600px;
-    width:32%;
+#landing-page .content-wrapper #middleColumn{
+    height: 100%;
+    max-height: 680px;
+
+    
     
 }
+#landing-page .content-wrapper #middleColumn img{
+    height: 100%;
+    max-height: 650px;
+}
+
   
 
-#Landing-Page .content-wrapper #location{
+#landing-page .content-wrapper #rightColumn{
+    width:363px;
+    height: 600px;
     position: absolute;
-    width:32%;
-    height: 650px;
-    right: 0;
+    right: 20px;
     top: 0;
-    padding: 25px 25px;
+    font-size: 24px;
+    line-height: 34px;
 
     display: flex;
     flex-direction: column;
     align-items: right;
+    text-align: right;  
+
+}
+#landing-page .content-wrapper #rightColumn strong{
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+
     text-align: right;
 
+    color: #FFFFFF;
 }
-#Landing-Page .content-wrapper #location strong{
-    
-}
-#Landing-Page .content-wrapper #location span{
+#landing-page .content-wrapper #rightColumn span{
+    font-family: Nunito , sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 34px;
 
+    text-align: right;
+
+    color: #FFFFFF;
+}
+#landing-page .content-wrapper #rightColumn a{
+    position: absolute;
+    right: 20px;
+    bottom:20px;
+    width: 80px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+#landing-page .content-wrapper #rightColumn a:hover{
+    background:#96FEFF;
 }
 

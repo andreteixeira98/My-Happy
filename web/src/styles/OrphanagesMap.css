@@ -1,0 +1,126 @@
+#Page-OrphanagesMap{
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: row;
+}
+#Page-OrphanagesMap aside{
+    height: 100%;
+    width:450px;
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: center;
+
+
+}
+
+#Page-OrphanagesMap aside header{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+
+#Page-OrphanagesMap aside header img{
+    position: absolute;
+    left: 30px;
+    margin-top: 20px;
+}
+
+#Page-OrphanagesMap aside header h2{
+    margin-left: 40px;
+    margin-top:60%;
+
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 42px;
+
+    color: #FFF;
+}
+#Page-OrphanagesMap aside header h3{
+    margin-left: 40px;
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+#Page-OrphanagesMap aside footer{
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items: left;
+    font-family: Nunito ,sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+
+color: #FFFFFF;
+}
+
+#Page-OrphanagesMap aside footer strong{
+    position: absolute;
+    left: 30px;
+    bottom:165px;
+
+}
+#Page-OrphanagesMap aside footer span{
+    position: absolute;
+    left: 30px;
+    bottom:140px;
+}
+#Page-OrphanagesMap aside footer a{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border:0;
+    background: #ffd666;
+    cursor: pointer;
+    left: 40px;
+    bottom:40px;
+
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+#Page-OrphanagesMap aside footer a:hover{
+    background:#96FEFF;
+}
+
+#Page-OrphanagesMap .leaflet-container{
+    z-index: 5;
+}
+
+#Page-OrphanagesMap #create-orphanage{
+
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    z-index: 10;
+    width: 80px;
+    height: 80px;
+    background: #ffd666;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+#Page-OrphanagesMap #create-orphanage:hover{
+    background:#96FEFF;
+}
