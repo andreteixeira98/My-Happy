@@ -89,7 +89,7 @@
 
 #landing-page .content-wrapper #rightColumn{
     width:363px;
-    height: 600px;
+    height: 100%;
     position: absolute;
     right: 20px;
     top: 0;
@@ -128,7 +128,7 @@
 #landing-page .content-wrapper #rightColumn a{
     position: absolute;
     right: 20px;
-    bottom:20px;
+    bottom:40px;
     width: 80px;
     height: 80px;
     background: #ffd666;

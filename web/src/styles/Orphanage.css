@@ -1,0 +1,161 @@
+#page-orphanage{
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: flex;
+    flex-direction:row;
+
+    background: #EBF2F5;
+
+}
+#page-orphanage .container{
+    width:1440px;
+    height: 1867px;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+#page-orphanage  .container aside{
+    background: #15C3D6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width:100px;
+    height: 100vh;
+    max-height: 700px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    border-radius: 5px;
+
+}
+#page-orphanage  .container aside img{
+    width:80px;
+    height: 80px;
+    margin-top: 20px;
+    
+
+}
+
+#page-orphanage  .container aside a{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border:0;
+    background: #ffd666;
+    cursor: pointer;
+    left: 20px;
+    bottom:40px;
+
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+#page-orphanage .container aside a:hover{
+    background:#96FEFF;
+}
+
+#page-orphanage  .container #orphanage-details{
+    position: absolute;
+    width: 708px;
+    height: 1677px;
+    left: 414px;
+    top: 108px;
+
+    background: #FFFFFF;
+    border:1px solid #D3E2E5;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+#page-orphanage  .container #orphanage-details #image-main{
+    position: absolute;
+    top: 0px;
+    width:708px;
+    height:336px;
+
+}
+#page-orphanage  .container #orphanage-details .images-orphanage{
+    position: absolute;
+    width:644px;
+    top:370px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+}
+#page-orphanage  .container #orphanage-details .images-orphanage img{
+    width: 94px;
+    height: 94px;
+}
+#page-orphanage  .container #orphanage-details #name-orphanage{
+    position: absolute;
+    top: 550px;
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 54px;
+    color: #4D6F80;
+}
+#page-orphanage  .container #orphanage-details #about-orphanage{
+    position: absolute;
+    width: 644px;
+    height: 100px;
+    top:630px;
+
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color:#5C8599;
+    text-align: justify;
+    justify-content:center;
+    align-items: center;
+
+
+}
+#page-orphanage  .container #orphanage-details #map-container{
+    position: absolute;
+    width: 644px;
+    height:350px ;
+    top:780px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+
+    border-radius:20px;
+}
+#page-orphanage  .container #orphanage-details #map-container .tileLayer-map{
+    width:644px;
+    height: 300px;
+    
+}
+#page-orphanage  .container #orphanage-details #map-container label{
+    width:644px;
+    height:50px;
+    background: #E6F7FB;
+    align-items: center;
+    justify-content:center;
+}
+#page-orphanage  .container #orphanage-details #map-container label a{
+    align-items: center;
+    justify-content: center;
+}
+
+
