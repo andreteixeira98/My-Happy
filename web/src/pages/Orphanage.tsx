@@ -44,33 +44,34 @@ function Orphanage(){
 
                 <h1 id="name-orphanage">Nome do Orfanato </h1>
                 <p id="about-orphanage"> sobre o orfanato texto com insformações sobre o orfanato. 
-                        mljwsljfjoasjfahjAJOKKDSFLKJLKJJLKAKALKSAK</p>
+                    mljwsljfjoasjfahjAJOKKDSFLKJLKJJLKAKALKSAK
+                </p>
                 <div id="map-container">
                     <Map 
                         
                         center={[-4.9715909,-39.0248505]} 
                         zoom={16} 
-                        style={{ width: '100%', height: 280 }}
+                        style={{ width: '100%', height: '100%' }}
                         dragging={false}
                         touchZoom={false}
                         zoomControl={false}
                         scrollWheelZoom={false}
                         doubleClickZoom={false}
-                >
-                    <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" className="tileLayer-map" />
-                    <Marker interactive={false} icon={mapIcon} position={[-4.9715909,-39.0248505]} />
-                </Map>
+                    >
+                        <TileLayer url="https://a.tile.openstreetmap.org/{z}/{x}/{y}.png"  />
+                        <Marker interactive={false} icon={mapIcon} position={[-4.9715909,-39.0248505]} />
+                    </Map>
 
-                    <label htmlFor="" id="link-to-google-maps">
-                        <a href="#"> Link para google maps</a>
-                    </label>
+                    <div id="link-to-google-maps">
+                        <a target='_blank' rel="noopener noreferrer" href={`https://www.google.com/maps/dir/?api=1&destination=${-4.9715909},${-39.0248505}`} > Ver rotas no Google Maps</a>
+                    </div>
                 </div>
 
-                <hr/>
+                <hr />
 
                 <div id="instructions-orphanage">
                     <h3 >Instruções para visita</h3>
-                    <p>as instruções de visita</p>
+                    <p>as instruções de visitaosjehjrsuiewshjihweu9woj  wejojqwejoeqj9rejior3jo3oe3jo3rjrjjojewoejiowehjwe</p>
                 </div>
                 <div>
                     Horario de visita
